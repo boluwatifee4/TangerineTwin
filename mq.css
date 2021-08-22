@@ -10,12 +10,6 @@
         display: block;
         font-size: 28px;
     }
-    
-}
-
-
-
- @media only screen and (max-width:414px) and (min-width:320px){
     header .container{
         display: flex;
         align-items: center;
@@ -99,5 +93,12 @@
         left: 85%;
         top: -35%;
     }
+    
+}
+
+
+
+ @media only screen and (max-width:414px) and (min-width:320px){
+   
     
 } 
