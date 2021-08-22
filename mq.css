@@ -28,24 +28,68 @@
         padding-right: 1rem;
         width: 100%;
     }
+    .home-page{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
     .content{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        gap: 12rem;
+    }
+    .home-text{
         align-items: center;
+        padding: 0 1rem;
         justify-content: center;
         width: 100%;
-        gap: 14rem;
     }
     .home-text h1{
+        font-size: 1.9rem;
+        width: 100%;
         
-        text-align: center;
-    }
-    .home-text p{
-        
-        align-items: center;
-        text-align: center;
     }
     .home-textbtn{
-        align-items: center;
+        width: 55%;
+        padding: 1rem 1rem;
     }
+    .home-badge{
+        align-items: center;
+        text-align: center;
+        margin-left: 1.2rem;
+    }
+    
+    .beaming{
+        left: 0;
+        width: 59%;
+        top: -28% ;
+    }
+    .ic-bank{
+        width: 30%;
+        left: 28%;
+        top: -100%;
+    }
+    .ic-save{
+        left: -5%;
+        width: 30%;
+        top: 80%;
+    }
+    .ic-credit{
+        left: -19%;
+         top: -38%;
+         width: 30%;
+    }
+    .ic-insurance{
+        width: 30%;
+        left: 70%;
+        top: 80%;
+    }
+    .ic-pensions{
+        width: 30%;
+        left: 85%;
+        top: -35%;
+    }
+    
 } 
