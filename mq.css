@@ -52,13 +52,14 @@
         
     }
     .home-textbtn{
-        width: 55%;
+        width: 69%;
         padding: 1rem 1rem;
     }
     .home-badge{
         align-items: center;
         text-align: center;
-        margin-left: 1.2rem;
+        margin-left: 0rem;
+        justify-content: space-between;
     }
     
     .beaming{
