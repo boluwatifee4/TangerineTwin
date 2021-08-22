@@ -1,0 +1,51 @@
+@media only screen and (max-width:1200px) and (min-width:320px){
+    nav{
+        display: none   ;
+    }
+    .nav-buttons{
+        display: none;
+    }
+    
+    .icon{
+        display: block;
+        font-size: 28px;
+    }
+    
+}
+
+
+
+ /* @media only screen and (max-width:414px) and (min-width:320px){
+    header .container{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        justify-content: space-between ;
+    }
+    .header-contents{
+        padding-top: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        width: 100%;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        gap: 14rem;
+    }
+    .home-text h1{
+        
+        text-align: center;
+    }
+    .home-text p{
+        
+        align-items: center;
+        text-align: center;
+    }
+    .home-textbtn{
+        align-items: center;
+    }
+}  */
