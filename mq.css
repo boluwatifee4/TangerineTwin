@@ -15,7 +15,7 @@
 
 
 
- /* @media only screen and (max-width:414px) and (min-width:320px){
+ @media only screen and (max-width:414px) and (min-width:320px){
     header .container{
         display: flex;
         align-items: center;
@@ -48,4 +48,4 @@
     .home-textbtn{
         align-items: center;
     }
-}  */
+} 
