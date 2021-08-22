@@ -362,6 +362,7 @@ nav , ul, li, a{
        display: flex;
        gap: 10rem;
        padding: 0;
+       align-items: center;
    }
    .benefits-contents h2{
     font-size: 40px;
