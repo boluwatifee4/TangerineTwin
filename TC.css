@@ -536,11 +536,13 @@ nav , ul, li, a{
       
   }
 
-
+.q{
+    display: none;
+}
   .sign {
     position: relative;
     margin: 0 auto -170px;
-    max-width: 1140px;
+    max-width: 1200px;
     width: 100%;
     padding: 20px;
 }
@@ -551,13 +553,14 @@ nav , ul, li, a{
     padding: 56px 0;
     overflow: hidden;
 }
-div.cont{
+.cont{
     display: flex;
     justify-content: space-between;
     width: 100%;
     max-width: 900px;
     margin: auto;
     padding: 0 30px;
+    align-items: center ;
 }
 .sign-text{
     max-width: 435px
@@ -601,13 +604,18 @@ div.cont{
     background-size: cover;
 }
 .colums-content{
+    
+    padding-top: 15rem;
+    width: 100%;
+    
+}
+.columnsm-content{
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    padding-top: 15rem;
-    width: 100%;
     justify-content: space-between;
     align-items: center;
+    padding: 0 3rem;
 }
 
 .feet-social{
@@ -616,21 +624,41 @@ div.cont{
     justify-content: flex-start;
 }
 .feet-social img{
-    width: 10%;
+    width: 15%;
+    margin-bottom: 1.5rem;
 }
 .feet-social p{
     font-style: normal;
-    font-weight: 450;
+    font-weight: 480;
     font-size: 20px;
     line-height: 35px;
     color: #1e1147;
 }
-.feet-social, ulmn  {
-    display: inline;
+.feet-social ul li {
+    display: inline !important;
     color: #ff9100;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
+}
+.feet-social ul{
+    padding: 0;
 }
 .others ul{
     display: block;
     color: #1e1147;
+}
+.others h2{
+    font-size: 1.3rem;
+}
+.others ul li{
+    padding-left: 0 !important;
+}
+
+.o1{
+    margin-top: 4.5rem;
+}
+.o2{
+    margin-bottom: 5.3rem;
+}
+.o3{
+    margin-bottom: 2.5rem;
 }

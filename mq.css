@@ -19,7 +19,7 @@
         padding-top: 2rem;
         padding-left: .5rem;
         padding-right: 1rem;
-        width: 100%;
+        width: 90%;
         margin: 0 .5rem;
     }
     .home-page{
@@ -147,5 +147,49 @@
         bottom: 95px;
         right: -10px;
         max-width: 60%;
+    }
+    .web-available img{
+        display: none;
+    }
+    .meq{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .q{
+        display: flex !important;
+        width: 90%;
+    }
+    .web-text{
+        font-size: 2.3rem;
+    }
+    .web-para{
+        margin: 0;
+        text-align: center;
+        max-width: 100%;
+        margin-bottom: 3rem;
+        font-size:.95rem;
+        line-height: auto;
+    }
+    .cont{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2.5rem;
+    }
+    .sign-text h3{
+        font-size: 1.9rem;
+        text-align: center;
+    }
+    .sign-text p{
+        font-size: 1rem;
+        text-align: center;
+    }
+    .columnsm-content{
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        padding: 10px;
     }
 }
