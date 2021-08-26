@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+
+/* :root {
+    --animationDuration: 0.5s;
+    --animationStyle: ease-in-out;
+} */
+
+
 *{
     margin: 0;
     padding: 0;
@@ -11,39 +18,48 @@
     justify-content: space-between;
     align-items: center;
     padding: 0px;
+    margin: 0 8rem;
     /* margin-top: .5rem; */
+}
+.logp{
+    width:120% !important;
 }
 #headerlinks{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
 }
+
 nav ul{
     display: flex !important;
     flex-direction: row;
     align-items: center;
     padding-top: 2rem;
     position: static;
+    justify-content: space-between;
 }
+
 nav , ul, li, a{
     text-decoration: none;
-    padding: .65rem;
-    color: #8f9bb3;
+    padding: .69rem;
+    color: #8f9bb3 ;
     font-weight: 200;
     /* font-family: 'Urbanist', sans-serif; */
-    font-size: 13px;
+    font-size: 20px;
 }
-.nav-buttons .lo{
-    color: #1e1147;
-    background-color: #ccced2;
+.nav-buttons .lo {
+    color: #1e1147 ;
+    background-color: #ccced2 ;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 15px ;
     border-radius: 5px;
     padding: .9rem 1.7rem;
 }
 .nav-buttons .si{
     margin-left: 20px;
     background-color: #ff9100;
-    color: white;
+    color: white ;
     font-weight: 600;
     font-size: 15px;
     border-radius: 5px;
@@ -168,9 +184,11 @@ nav , ul, li, a{
         padding-bottom: 120px;   
         background: linear-gradient(0deg,#fff9f1,#fff8ef 26.04%,hsla(0,0%,100%,0) 70%);
         margin-top: -175px;
+        
     }
     .home-page .container{
         padding: 0;
+        margin: 0 8rem;
     }
 
     .content{
@@ -185,11 +203,11 @@ nav , ul, li, a{
        color:#1e1147 ;
        font-weight: 700;
     letter-spacing: .2px; 
-    max-width: 450px;
-    font-size: 2.5rem;
+    max-width: 700px;
+    font-size: 3.7rem;
     }
     .home-text p{
-        font-size: 18px;
+        font-size: 22px;
         line-height: 30px;
         margin-top: 24px;
         max-width: 412px;
@@ -365,21 +383,31 @@ nav , ul, li, a{
        align-items: center;
    }
    .benefits-contents h2{
-    font-size: 40px;
+    font-size: 50px;
     line-height: 64px;
     color: #1e1147;
     font-weight: 700;
     width: 120%;
    }
    .benefits-contents p{
-    font-size: 20px;
+    font-size: 25px;
     line-height: 36px;
     color: #1e1147;
-    font-weight: 300;
+    font-weight: 400;
    }
-   .service .container{
 
+  
+   .bank-contents{
+       display: flex;
+       margin: auto;
+    padding: 0 20px;
+    align-items: center;
+    margin: auto;
+    padding: 0 20px;
+    max-width: 1400px;
+    gap: 0 180px;
    }
+   
    .service-sect{
     width: 100%;
     display: flex;
@@ -387,14 +415,222 @@ nav , ul, li, a{
     justify-content: center;
     padding: 0 30px;
    }
-   .bank-contents{
-       display: flex;
-   }
    .Banking{
     background: linear-gradient(
         180deg
         ,hsla(0,0%,100%,0),#fff8ef 26.04%,#fff9f1);
    }
-   .pay{
-       width: 30%;
+   .bc-text{
+       max-width: 45%;
+       
    }
+   .ser1{
+    font-size: 19px;
+    line-height: 17px;
+    letter-spacing: 6.8px;
+    text-transform: uppercase;
+    color: #1e1147;
+    margin-bottom: 50px;
+   }
+   .ser2{
+    font-weight: 650;
+    font-size: 60px;
+    line-height: px;
+    letter-spacing: .2px;
+    margin-bottom: 20px;
+    color: #1e1147;
+    
+   }
+   .ser3{
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: 400;
+    margin-top: 30px;
+    color: #1e1147 !important;
+   }
+   .ser4{
+    margin-top: 32px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    color: #ff9100;
+    padding: 0;
+   }
+   .bc-img{
+    position: relative;
+    max-width: 400px;
+   }
+   .pay{
+       width: 125%;
+   }
+   .payi{
+    position: absolute;
+    bottom: 95px;
+    right: -190px;
+    width: 350px;
+   }
+   .Insurance{
+    background: linear-gradient(
+        180deg
+        ,hsla(0,0%,100%,0),rgba(247,255,233,.81));
+   }
+
+
+
+   .web-available{
+    padding: 130px 0;
+    position: relative;
+   }
+   .web-available .img {
+    position: absolute;
+   }
+  .web-available .container{ 
+    background: #fafafe;
+    border-radius: 30px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 5px rgb(0 0 0 / 4%);
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    z-index: 2;
+    overflow: hidden;
+    position: relative;
+  }
+  .abstract{
+      position: absolute;
+    left: 8%;
+    bottom: 36%;
+    z-index: 2
+  }
+  .abstract2{
+      position: absolute;
+    right: 6%;
+    bottom: 0%;
+    height: 90%;
+    z-index: 2;
+  }
+  .web-text{
+    margin-bottom: 2rem;
+    font-weight: 700;
+    color: #1e1147;
+    font-size: 57px;
+    line-height: 60px;
+    margin-top: 3.9rem;
+  }
+  .web-para{
+    font-size: 20px;
+    line-height: 36px;
+    max-width: 600px;
+    width: 100%;
+    margin-bottom: 20rem;
+    align-items: center ;
+    text-align: center;
+    margin-left: 26.5%;
+    color: #1e1147;
+  }
+  .Sover{
+      width: 70%;
+      position: absolute;
+      top: 50%;
+      right: 15%;
+      
+  }
+
+
+  .sign {
+    position: relative;
+    margin: 0 auto -170px;
+    max-width: 1140px;
+    width: 100%;
+    padding: 20px;
+}
+.free{
+    width: 100%;
+    background: #1e1147;
+    border-radius: 40px;
+    padding: 56px 0;
+    overflow: hidden;
+}
+div.cont{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    padding: 0 30px;
+}
+.sign-text{
+    max-width: 435px
+}
+.sign-text h3{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: .2px;
+    color: #fff;
+}
+.sign-text p{
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: .2px;
+    color: hsla(0,0%,100%,.8);
+    margin-bottom: 24px;
+}
+.feet-badge{
+    display: flex;
+    gap: .8rem;
+}
+.sign-img{
+    margin-bottom: -40px
+}
+.sign-img img{
+ max-width: 300px;
+}
+
+
+.footer-main{
+    display: flex;
+    flex-wrap: wrap;
+    background: #e5eaf4;
+}
+.footer-colums{
+    display: flex;
+    width: 100%;
+    padding: 0 20px;
+    background-image: url(./TC-image/mapbase.svg);
+    background-size: cover;
+}
+.colums-content{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-top: 15rem;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feet-social{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.feet-social img{
+    width: 10%;
+}
+.feet-social p{
+    font-style: normal;
+    font-weight: 450;
+    font-size: 20px;
+    line-height: 35px;
+    color: #1e1147;
+}
+.feet-social, ulmn  {
+    display: inline;
+    color: #ff9100;
+    font-size: 1.5rem;
+}
+.others ul{
+    display: block;
+    color: #1e1147;
+}

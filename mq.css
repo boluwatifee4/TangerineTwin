@@ -1,11 +1,10 @@
-@media only screen and (max-width:1200px) and (min-width:320px){
-    nav{
-        display: none   ;
+@media only screen and (max-width:1347px) and (min-width:320px){
+    header nav{
+        display: none; 
     }
     .nav-buttons{
         display: none;
     }
-    
     .icon{
         display: block;
         font-size: 28px;
@@ -18,20 +17,23 @@
     }
     .header-contents{
         padding-top: 2rem;
-        padding-left: 1rem;
+        padding-left: .5rem;
         padding-right: 1rem;
         width: 100%;
+        margin: 0 .5rem;
     }
     .home-page{
         display: flex;
         justify-content: center;
         flex-direction: column;
         align-items: center;
+        width: 100%;
     }
     .content{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 100%;
     }
     .home-text{
         align-items: center;
@@ -44,6 +46,9 @@
         width: 100%;
         
     }
+    .home-text p{
+        width: 100%;
+    }
     .home-textbtn{
         width: 60%;
         padding: 1rem 1rem;
@@ -51,6 +56,7 @@
     }
     .home-imgs>div{
         margin-top: 10rem;
+        width: 100%;
     }
     .home-badge{
         align-items: center;
@@ -72,7 +78,7 @@
     }
     .ic-bank{
         width: 30%;
-        left: 28%;
+        left: 35%;
         top: -100%;
     }
     .ic-save{
@@ -96,5 +102,50 @@
         top: -35%;
     }
     
-    
+    .benefits .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .container{
+        width: 95%;
+    }
+    .benefits-contents h2{
+        width: 99%;
+        margin-left: .5rem;  
+    }
+    .benefits-contents p{
+        width: 95%;
+        margin-left: .6rem;
+        font-weight: 400;
+        font-size: 1.5rem;
+    }
+    .service-sect{
+        padding: 30px 0px !important;
+    }
+    .bank-contents{
+        flex-direction: column;
+        justify-content: left;
+    }
+    .bc-text{
+       max-width: 100%;
+       text-align: left;
+    }
+    .ser2{
+        font-size:2rem;
+    }
+    .ser3{
+        font-size: 1.2rem;
+    }
+    .pay{
+        width: 100%;
+    }
+    .payi {
+        position: absolute;
+        bottom: 95px;
+        right: -10px;
+        max-width: 60%;
+    }
 }
