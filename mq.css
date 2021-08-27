@@ -105,7 +105,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        gap: 1.5rem;
+        gap: 3rem;
     }
     .container{
         width: 95%;
@@ -189,6 +189,9 @@
         align-items: center;
         gap: 2.5rem;
     }
+    .sign-text{
+        max-width: 100%;
+    }
     .sign-text h3{
         font-size: 1.9rem;
         text-align: center;
@@ -205,12 +208,13 @@
     }
 
     .feet-badge img{
-        width: 37%;
+        width: 40%;
     }
     .feet-badge{
-        align-items: center;
-        justify-content: space-between;   
-        gap: 0rem;
+        align-items: center;   
+        gap: 1.5rem;
+        justify-content: center;
+        margin-bottom: 1.5rem;
 
     }
 }
