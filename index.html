@@ -83,7 +83,7 @@
             </div>
         </header>
 
-        <section>
+        <section >
             <div class="home-page">
                 <div class="container">
                     <div class="content">
@@ -114,7 +114,7 @@
             </div>
         </section>
 
-         <section class="benefits"> 
+         <section class="benefits reveal"> 
             <div class="container">
                 <div class="benefits-contents">
                     <h2>Live the Tangerine Life - create, grow and protect your wealth.</h2>
@@ -138,7 +138,7 @@
                                 <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
-                         <div class="bc-img">
+                         <div class="bc-img reaveal">
                             <img src="./TC-image/payment-product-image-phone1.png" alt="" class="pay">
                             <img src="./TC-image/payment-support-img.png" alt="" class="payi">
                         </div>
@@ -262,5 +262,17 @@
         </div>
     </div> 
 
+    <script type="text/javascript">
+    window.addEventListener('scroll',()=>{
+        let content = document.querySelector('.reveal');
+        let contentPosition = content.getBoundingClientRect().top;
+        let screenPosition = window.innerHeight/7;
+        if(contentPosition < screenPosition){
+            content.classList.add('active');
+        } else{
+            content.classList.remove('active');
+        }
+    });
+    </script>
 </body>
 </html>

@@ -383,7 +383,7 @@ nav , ul, li, a{
        align-items: center;
    }
    .benefits-contents h2{
-    font-size: 50px;
+    font-size: 40px;
     line-height: 64px;
     color: #1e1147;
     font-weight: 700;
@@ -550,9 +550,10 @@ nav , ul, li, a{
     width: 100%;
     background: #1e1147;
     border-radius: 40px;
-    padding: 56px 0;
+    padding: 40px 0;
     overflow: hidden;
 }
+
 .cont{
     display: flex;
     justify-content: space-between;
@@ -564,6 +565,9 @@ nav , ul, li, a{
 }
 .sign-text{
     max-width: 435px
+}
+.sign-img{
+    margin-top: .5rem;
 }
 .sign-text h3{
     font-weight: 700;
@@ -638,6 +642,7 @@ nav , ul, li, a{
     display: inline !important;
     color: #ff9100;
     font-size: 1.7rem;
+
 }
 .feet-social ul{
     padding: 0;
@@ -645,15 +650,16 @@ nav , ul, li, a{
 .others ul{
     display: block;
     color: #1e1147;
+    padding-left:0 !important ;
 }
 .others h2{
     font-size: 1.3rem;
 }
 .others ul li{
-    padding-left: 0 !important;
     font-weight: 350;
     color: #1e1147;
     font-size: 1rem;
+    padding-left: 0 !important;
 }
 
 .o1{
@@ -664,4 +670,13 @@ nav , ul, li, a{
 }
 .o3{
     margin-bottom: 2.5rem;
+}
+.reveal{
+    opacity: 1;
+    transform: scale(.9);
+    transition: all 1s ease-in-out;
+}
+.active{
+    opacity: 1;
+    transform: scale(1);
 }
