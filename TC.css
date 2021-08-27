@@ -651,6 +651,9 @@ nav , ul, li, a{
 }
 .others ul li{
     padding-left: 0 !important;
+    font-weight: 350;
+    color: #1e1147;
+
 }
 
 .o1{
