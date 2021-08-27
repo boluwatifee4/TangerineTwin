@@ -383,7 +383,7 @@ nav , ul, li, a{
        align-items: center;
    }
    .benefits-contents h2{
-    font-size: 40px;
+    font-size: 50px;
     line-height: 64px;
     color: #1e1147;
     font-weight: 700;
@@ -677,6 +677,60 @@ nav , ul, li, a{
     transition: all 1s ease-in-out;
 }
 .active{
+    opacity: 1;
+    transform: scale(1);
+}
+.reveal1{
+    opacity: 1;
+    transform: scale(.9);
+    transition: all 1s ease-in-out;
+}
+.active1{
+    opacity: 1;
+    transform: scale(1);
+}
+.reveal2{
+    opacity: 1;
+    transform: scale(.9);
+    transition: all 1s ease-in-out;
+}
+.active2{
+    opacity: 1;
+    transform: scale(1);
+}
+.reveal3{
+    opacity: 1;
+    transform: scale(.9);
+    transition: all 1s ease-in-out;
+}
+.active3{
+    opacity: 1;
+    transform: scale(1);
+}
+.reveal4{
+    opacity: 1;
+    transform: scale(.9);
+    transition: all 1s ease-in-out;
+}
+.active4{
+    opacity: 1;
+    transform: scale(1);
+}
+.reveal5{
+    opacity: 1;
+    transform: scale(.9);
+    transition: all 1s ease-in-out;
+}
+.active5{
+    opacity: 1;
+    transform: scale(1);
+}
+.reveal6{
+    opacity: 1;
+    transform: scale(.9);
+    transition: all 1s ease-in-out;
+}
+.active6{
     opacity: 1;
     transform: scale(1);
 }

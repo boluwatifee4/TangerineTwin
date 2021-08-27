@@ -114,7 +114,7 @@
             </div>
         </section>
 
-         <section class="benefits reveal"> 
+         <section class="benefits reveal1"> 
             <div class="container">
                 <div class="benefits-contents">
                     <h2>Live the Tangerine Life - create, grow and protect your wealth.</h2>
@@ -127,7 +127,7 @@
 
       <section class="service">
             
-                <div class="service-sect Banking">
+                <div class="service-sect Banking reveal2">
                     <div class="bank-contents">
                         <div class="bc-text">
                             <p class="ser1">Banking</p>
@@ -138,14 +138,14 @@
                                 <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
-                         <div class="bc-img reaveal">
+                         <div class="bc-img">
                             <img src="./TC-image/payment-product-image-phone1.png" alt="" class="pay">
                             <img src="./TC-image/payment-support-img.png" alt="" class="payi">
                         </div>
                     </div>
                 </div>
 
-                <div class="service-sect Insurance">
+                <div class="service-sect Insurance reveal3">
                     <div class="bank-contents">
                         <div class="bc-text">
                             <p class="ser1">Insurance</p>
@@ -163,7 +163,7 @@
                     </div>
                 </div>
 
-                <div class="service-sect Banking Pension">
+                <div class="service-sect Banking Pension reveal4">
                     <div class="bank-contents">
                         <div class="bc-text">
                             <p class="ser1">pensions</p>
@@ -174,7 +174,7 @@
                                 <i class="fas fa-arrow-right"></i>
                             </a>
                         </div>
-                        <div class="bc-img">
+                        <div class="bc-img reveal6">
                             <img src="./TC-image/pension-product-image.png" alt="" class="pay">
                             <img src="./TC-image/pennsion-support-img.png" alt="" class="payi">
                         </div>
@@ -183,7 +183,7 @@
             
         </section>
 
-       <section class="web-available">
+       <section class="web-available reveal">
             <div class="container">
                <img src="./TC-image/screenshot- ball-left.svg" alt="" class="abstract"> 
                <img src="./TC-image/screenshoot-ball-right.svg" alt="" class="abstract2">
@@ -198,7 +198,7 @@
 
         <div class="feet">
             <footer>
-                <section class="sign">
+                <section class="sign reveal5">
                    <div class="free">
                        <div class="cont">
                            <div class="sign-text">
@@ -262,17 +262,6 @@
         </div>
     </div> 
 
-    <script type="text/javascript">
-    window.addEventListener('scroll',()=>{
-        let content = document.querySelector('.reveal');
-        let contentPosition = content.getBoundingClientRect().top;
-        let screenPosition = window.innerHeight/7;
-        if(contentPosition < screenPosition){
-            content.classList.add('active');
-        } else{
-            content.classList.remove('active');
-        }
-    });
-    </script>
+    <script src="tc.js"></script>
 </body>
 </html>
