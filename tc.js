@@ -1,3 +1,6 @@
+
+
+
 window.addEventListener('scroll',()=>{
     let content = document.querySelector('.reveal');
     let contentPosition = content.getBoundingClientRect().top;
@@ -70,3 +73,4 @@ window.addEventListener('scroll',()=>{
         content.classList.remove('active6');
     }
 });
+

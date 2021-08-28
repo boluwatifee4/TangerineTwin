@@ -52,7 +52,7 @@ nav , ul, li, a{
     color: #1e1147 ;
     background-color: #ccced2 ;
     font-weight: 600;
-    font-size: 15px ;
+    font-size: 25px ;
     border-radius: 5px;
     padding: .9rem 1.7rem;
 }
@@ -61,11 +61,11 @@ nav , ul, li, a{
     background-color: #ff9100;
     color: white ;
     font-weight: 600;
-    font-size: 15px;
+    font-size: 25px;
     border-radius: 5px;
     padding: .9rem 1.7rem;
 }
-.icon{
+#icon{
     color: #ff9100;
     display: none;
 }
