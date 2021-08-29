@@ -1,20 +1,26 @@
+function myFunction() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+      x.style.color = " color: #ff9100";
+    } else {
+    // x.setAttribute('class', 'myLinks-transition')
+      x.style.display = "block";
+      x.style.color = " color: #ff9100";
 
-const mainMenu = document.querySelector('.mainMenu');
-const openMenu = document.querySelector('.openMenu');
-const closeMenu = document.querySelector('.closeMenu');
+    }
+  }
+function myFunctionX() {
+    var x = document.getElementById("myLinks");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+      x.style.color = " color: #ff9100";
+    } else {
+      x.style.display = "block";
+      x.style.color = " color: #ff9100";
 
-openMenu.addEventListener('click' ,show);
- closeMenu.addEventListener('click' ,close);
-
- 
- function show() {
-     mainMenu.style.display = 'flex';
-     mainMenu.style.display.top = '0';
- }
-
- function close() {
-     mainMenu.style.top = '-100010%';
- }
+    }
+  }
 
 window.addEventListener('scroll',()=>{
     let content = document.querySelector('.reveal');

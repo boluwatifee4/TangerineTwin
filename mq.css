@@ -3,43 +3,15 @@
    
      /* dropdown  */
        
-    header nav .mainMenu{
-        display: none !important;
-        position: absolute;
-        width: 100%; 
-        height: fit-content;
-        background-color: #fafafe;
-        top: 0px;
-        left: 0;
-        right: 0 !important;
-        transition: top 1s ease;
-        z-index: 99;
-        padding: 25px 20px 20px;
-    }
-    nav ul li{
-        font-size: 13px;
-        font-weight: 500;
-    }
-
     .nav-buttons{
-        display: none;
+        display: none !important;
     }
-    .openMenu{
-        display: block;
-        font-size: 28px;
+     nav ul{
+        display: none !important;
     }
-
-    nav  .closeMenu{
-        display: block;
-        position: absolute;
-        top: 20px;
-        width: 100%;
-        
-    }
-    .claims{
+    .icon{
         display: block;
     }
-
     header .container{
         display: flex;
         align-items: center;
