@@ -5,7 +5,7 @@
        
     header nav .mainMenu{
         display: block !important;
-        position: fixed;
+        position: absolute;
         width: 100%; 
         height: fit-content;
         background-color: #fafafe;
