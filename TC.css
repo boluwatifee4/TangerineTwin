@@ -661,14 +661,14 @@ nav  , .closeMenu , .claims{
     justify-content: flex-start;
 }
 .feet-social img{
-    width: 15%;
+    width: 25%;
     margin-bottom: 1.5rem;
 }
 .feet-social p{
     font-style: normal;
-    font-weight: 350;
-    font-size: 20px;
-    line-height: 35px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
     color: #1e1147;
 }
 .feet-social ul li {
@@ -678,10 +678,10 @@ nav  , .closeMenu , .claims{
 
 }
 .feet-social ul{
-    padding: 0;
+    padding: 0 !important;
 }
 .others ul{
-    display: block;
+    display: block !important;
     color: #1e1147;
     padding-left:0 !important ;
 }
@@ -696,13 +696,13 @@ nav  , .closeMenu , .claims{
 }
 
 .o1{
-    margin-top: 4.5rem;
+    margin-top: 4.5rem !important;
 }
 .o2{
-    margin-bottom: 5.3rem;
+    margin-bottom: 5.3rem !important;
 }
 .o3{
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.5rem !important;
 }
 .reveal{
     opacity: 1;

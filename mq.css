@@ -16,6 +16,10 @@
         z-index: 99;
         padding: 25px 20px 20px;
     }
+    nav ul li{
+        font-size: 20px;
+        font-weight: 500;
+    }
 
     .nav-buttons{
         display: none;
