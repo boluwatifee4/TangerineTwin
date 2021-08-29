@@ -4,7 +4,7 @@
      /* dropdown  */
        
     header nav .mainMenu{
-        display: block !important;
+        display: none !important;
         position: absolute;
         width: 100%; 
         height: fit-content;
@@ -82,9 +82,9 @@
         font-size: 1rem;
     }
     .home-textbtn{
-        width: 40%;
+        width: 52%;
         padding: .5rem .5rem;
-        font-size: .8rem;
+        font-size: 1rem;
     }
     .home-imgs>div{
         margin-top: 10rem;
@@ -116,7 +116,7 @@
         top: 80%;
     }
     .ic-credit{
-        left: -19%;
+        left: -21%;
          top: -25%;
          width: 25%;
     }
@@ -127,8 +127,8 @@
     }
     .ic-pensions{
         width: 25%;
-        left: 85%;
-        top: -35%;
+        left: 90%;
+        top: -30%;
     }
     
     .benefits .container{

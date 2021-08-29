@@ -249,8 +249,9 @@ nav  , .closeMenu , .claims{
     .home-textbtn{
         display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin: 32px 0 40px;
+    gap: 1rem;
     color: white;
     background-color: #ff9100;
     width: 30%;
