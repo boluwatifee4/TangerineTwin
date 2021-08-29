@@ -13,8 +13,11 @@
     position: absolute;
     top: 0px;
     transition: ease-in-out !important;
-    font-weight: 500;
    
+}
+#myLinks li {
+    color: #1e1147;
+    font-weight: 500;
 }
 .logot{
     z-index: 102;
@@ -58,6 +61,7 @@
     color: #ff9100 !important;
     font-size: 2rem;
     display: none;
+    transition: ease-in-out 1s;
 }
 .iconx{
     color: #1e1147 !important;
@@ -265,7 +269,8 @@ nav , ul,  li, a{
     align-items: center;
     /* justify-content: space-between; */
     margin: 32px 0 40px;
-    gap: 1rem;
+    gap:1rem;
+    justify-content: space-between;
     color: white;
     background-color: #ff9100;
     width: 30%;
@@ -725,8 +730,19 @@ nav , ul,  li, a{
     transition: all 1s ease-in-out;
 }
 .active{
-    opacity: 1;
+    /* opacity: 1; */
     transform: scale(1);
+    animation: mymove;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+}
+@keyframes mymove{
+    0%{opacity: 0;}
+    25%{opacity: 0.25;}
+    50%{opacity: 0.5;}
+    75%{opacity: 0.75;}
+    100%{opacity: 1;}
 }
 .reveal1{
     opacity: 1;
