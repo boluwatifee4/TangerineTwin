@@ -322,7 +322,7 @@ nav , ul,  li, a{
      }
 
     .ic{
-        width: 130px;
+        width: 100px;
         position: absolute;
         
     }
@@ -514,13 +514,13 @@ nav , ul,  li, a{
     max-width: 400px;
    }
    .pay{
-       width: 125%;
+       width: 98%;
    }
    .payi{
     position: absolute;
-    bottom: 95px;
-    right: -190px;
-    width: 350px;
+    bottom: 90px;
+    right: -57px;
+    width: 320px;
    }
    .Insurance{
     background: linear-gradient(
