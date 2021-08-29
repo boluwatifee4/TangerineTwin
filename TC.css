@@ -13,7 +13,11 @@
     position: absolute;
     top: 0px;
     transition: ease-in-out !important;
+    font-weight: 500;
    
+}
+.logot{
+    z-index: 102;
 }
 /* .myLinks-transition{
     transition: top 1s ease;
