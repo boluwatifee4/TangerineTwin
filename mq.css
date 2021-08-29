@@ -3,31 +3,39 @@
    
      /* dropdown  */
        
-    header nav{
-        position: absolute;
+    header nav .mainMenu{
+        display: block !important;
+        position: fixed;
         width: 100%; 
         height: fit-content;
         background-color: #fafafe;
         top: 0px;
         left: 0;
-        transition: 0.5s;
+        right: 0 !important;
+        transition: top 1s ease;
         z-index: 99;
         padding: 25px 20px 20px;
     }
-    header nav .show {
-        left:0 !important;
-    }
-    header nav ul{
-        display: block !important;
-    }
+
     .nav-buttons{
         display: none;
     }
-    #icon{
+    .openMenu{
         display: block;
         font-size: 28px;
-        z-index: 120;
     }
+
+    nav  .closeMenu{
+        display: block;
+        position: absolute;
+        top: 20px;
+        width: 100%;
+        
+    }
+    .claims{
+        display: block;
+    }
+
     header .container{
         display: flex;
         align-items: center;
