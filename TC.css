@@ -9,7 +9,11 @@
     text-decoration: none;
     list-style-type: none;
 }
-
+.actives li{
+    border-bottom: 2px solid #ff9100;
+    color: #1e1147;
+    font-weight: 450;
+}
 .header-contents{
     display: flex;
     justify-content: space-between;
