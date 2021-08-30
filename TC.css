@@ -1,9 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Urbanist&display=swap');
+                  /* header styling  */
 
-/* :root {
-    --animationDuration: 0.5s;
-    --animationStyle: ease-in-out;
-} */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header-contents{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.2rem;
+    margin: 0 8rem;
+    gap: 6rem;
+}
+#headerlinks .logot{
+    width: 150%;
+    margin-bottom: 1.5rem;
+}
+#headerlinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
 #myLinks{
     display: none;
     padding: 25px 20px 20px;
@@ -22,40 +46,10 @@
 .logot{
     z-index: 102;
 }
-/* .myLinks-transition{
-    transition: top 1s ease;
-    display: block;
-} */
+
 #myLinks a{
     display: block;
     
-}
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    list-style-type: none;
-}
-.header-contents{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 1.2rem;
-    margin: 0 8rem;
-    gap: 6rem;
-    /* margin-top: .5rem; */
-}
-#headerlinks .logot{
-    width: 150%;
-    margin-bottom: 1.5rem;
-}
-#headerlinks{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 2rem;
 }
 .icon{
     color: #ff9100 !important;
@@ -118,7 +112,7 @@ nav , ul,  li, a{
 }
 
 
-    /* dropdown */
+    /* personal dropdown */
     .drop{
         position: relative;
         display: inline-block;
@@ -210,8 +204,6 @@ nav , ul,  li, a{
 
     }
 
-     
-
      .dropdown-content:after {
         content: "";
         height: 14px;
@@ -227,7 +219,7 @@ nav , ul,  li, a{
     );
     } 
 
-          /* end of header styling  */
+    /* end of header styling  */
 
                         /* home page styling */
     .home-page{
@@ -267,7 +259,6 @@ nav , ul,  li, a{
     .home-textbtn{
         display: flex;
     align-items: center;
-    /* justify-content: space-between; */
     margin: 32px 0 40px;
     gap:1rem;
     justify-content: space-between;
@@ -289,11 +280,9 @@ nav , ul,  li, a{
         max-width: 340px;
     height: 52px;
     }
-    
     .home-imgs{
         position: relative;
         display: flex;
-    /* width: 500px; */
     }
     .home-imgs>div{
         display: flex;
@@ -447,9 +436,7 @@ nav , ul,  li, a{
     line-height: 36px;
     color: #1e1147;
     font-weight: 400;
-   }
-
-  
+   }  
    .bank-contents{
        display: flex;
        margin: auto;
@@ -460,7 +447,10 @@ nav , ul,  li, a{
     max-width: 1400px;
     gap: 0 180px;
    }
-   
+             /* end of benefits styling  */
+
+             /* service section styling  */
+
    .service-sect{
     width: 100%;
     display: flex;
@@ -528,8 +518,9 @@ nav , ul,  li, a{
         ,hsla(0,0%,100%,0),rgba(247,255,233,.81));
    }
 
+         /* end of service ection  */
 
-
+              /* web-available  */
    .web-available{
     padding: 130px 0;
     position: relative;
@@ -588,10 +579,13 @@ nav , ul,  li, a{
       right: 15%;
       
   }
-
 .q{
     display: none;
 }
+
+             /* end of web availabe  */
+
+             /* sign  */
   .sign {
     position: relative;
     margin: 0 auto -170px;
@@ -647,7 +641,9 @@ nav , ul,  li, a{
  max-width: 300px;
 }
 
-
+            /* end of sign  */
+            
+            /* footer */
 .footer-main{
     display: flex;
     flex-wrap: wrap;
@@ -798,3 +794,5 @@ nav , ul,  li, a{
     opacity: 1;
     transform: scale(1);
 }
+
+/* end of foooter/on scroll styling  */
